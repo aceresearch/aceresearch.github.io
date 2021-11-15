@@ -13,7 +13,7 @@ const IndexPage = () => (
     </div>
 
     <div className={styles.events}>
-      <h2>Projects</h2>
+      <h2>Events</h2>
 
       <h3>Public reading groups</h3>
       <p>ACE has three reading group meetings weekly, one for each of the following topics:</p>
@@ -22,6 +22,17 @@ const IndexPage = () => (
 
       <h3>Accelerated computing</h3>
       <p>ACE offers timed access to GPUs for student research.</p>
+    </div>
+
+    <div className={styles.research}>
+      <h2>Research</h2>
+
+      <h3>Carbon capture</h3>
+      <h3>Agriculture</h3>
+      <h3>Enzyme design</h3>
+      <h3>Gene networks in development</h3>
+      <h3>Education</h3>
+
     </div>
   </>
 )
