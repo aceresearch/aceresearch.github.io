@@ -1,31 +1,29 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import * as styles from "../styles/index.module.scss"
 
 const IndexPage = () => (
-  <Layout>
-    <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
-    </p>
-  </Layout>
+  <>
+    <StaticImage src="../images/ace.png" alt="ace logo" width={150} height={150} />
+    <h1>ACE Research Group</h1>
+
+    <div className={styles.description}>
+      <p>The Advanced Capability Engineering (ACE) research group brings together a diverse group of undergraduate and graduate students to pursue <em>Convergence Research</em>: integrated research joining math, computation, engineering with the physical and life sciences.</p>
+    </div>
+
+    <div className={styles.events}>
+      <h2>Projects</h2>
+
+      <h3>Public reading groups</h3>
+      <p>ACE has three reading group meetings weekly, one for each of the following topics:</p>
+
+      <h3>Annotated paper forum</h3>
+
+      <h3>Accelerated computing</h3>
+      <p>ACE offers timed access to GPUs for student research.</p>
+    </div>
+  </>
 )
 
 export default IndexPage
