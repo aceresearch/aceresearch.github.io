@@ -20,9 +20,12 @@ The Advanced Capability Engineering (ACE) research group brings together a diver
 
 ### life sciences
 - synthetic biology
+    - paper-based
 - molecular biology
 - developmental biology
 
 ### engineering
 - computer aided design and manufacturing
+- soft robotics
 - micro and nano-fabrication
+- electronics design
