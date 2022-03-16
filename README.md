@@ -43,5 +43,13 @@ The Advanced Capability Engineering (ACE) research group brings together a diver
     - generative models
 - fabrication
     - micro/nano-manufacturing
-- 
 
+## problems
+- food insecurity
+- cancer
+- Alzheimer's
+- IBD
+- clean energy
+- clean manufacturing
+- carbon capture
+- pollution
