@@ -13,12 +13,13 @@ const IndexPage = () => (
     </div>
 
     <div className={styles.events}>
-      <h2>Events</h2>
+      <h2>Activities</h2>
 
       <h3>Public reading groups</h3>
       <p>ACE has three reading group meetings weekly, one for each of the following topics:</p>
 
       <h3>Annotated paper forum</h3>
+      <p>Openpaper is a forum created for collaborative learning. Ask and answer questions about canonical papers in fields ranging from molecular biology to organic chemistry to deep learning.</p>
 
       <h3>Accelerated computing</h3>
       <p>ACE offers timed access to GPUs for student research.</p>

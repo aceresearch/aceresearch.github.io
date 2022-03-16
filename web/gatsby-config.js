@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `ACE Group`,
+    description: `The ACE Group brings together students with different skillsets to accelerate the Convergence Revolution.`,
+    author: `@mattfeng`,
+    siteUrl: `https://aceresearch.github.io`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
