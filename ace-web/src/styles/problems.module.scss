@@ -1,0 +1,11 @@
+@import "fonts.scss";
+
+.problemsList {
+    font-family: $mono;
+    font-size: $larger;
+    list-style: none;
+
+    li {
+        padding: 10px 0;
+    }
+}

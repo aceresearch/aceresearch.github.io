@@ -7,7 +7,9 @@ import * as styles from "../styles/header.module.scss"
 const Header = () => (
   <header className={styles.container}>
     <div className={styles.innerContainer}>
-      <AceLogo className={styles.logo} />
+      <Link to="/" className={styles.logo}>
+        <AceLogo className={styles.logo} />
+      </Link>
 
       <div className={styles.links}>
         <Link to="/about">about</Link>
