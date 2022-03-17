@@ -2,6 +2,7 @@
 
 ## Journals
 - Journal of Clinical Oncology
+- CA: A Cancer Journal for Clinicians
 
 ## Doctors/Researchers
 - Zvi Fuks, M.D. (MSKCC)
