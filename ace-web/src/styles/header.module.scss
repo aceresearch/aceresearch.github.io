@@ -1,1 +1,45 @@
 @import "colors.scss";
+@import "fonts.scss";
+
+.container {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.innerContainer {
+    height: 50px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 80%;
+    fill: $black;
+}
+
+.links {
+    // fonts
+    font-family: $mono;
+    font-size: $normal;
+
+    // container
+    flex-basis: 400px;
+
+    // inner links
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+        color: $black;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
