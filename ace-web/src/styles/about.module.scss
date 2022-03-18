@@ -1,0 +1,19 @@
+@import "fonts.scss";
+@import "header.module.scss";
+
+.mainContainer {
+    display: flex;
+    align-items: center;
+
+    height: calc(100vh - $header-height);
+
+    p {
+        font-family: $mono;
+    }
+
+    .mainText {
+        width: 80ch;
+        margin: 0 auto;
+        transform: translateY(-25%);
+    }
+}
