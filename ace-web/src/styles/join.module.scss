@@ -1,0 +1,52 @@
+@import "colors.scss";
+@import "fonts.scss";
+@import "header.module.scss";
+
+.mainContainer {
+    height: calc(100vh - $header-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.submitContainer {
+    transform: translateY(-50%);
+
+    p {
+        margin: 10px 0;
+        font-family: $mono;
+    }
+}
+
+.emailContainer {
+    display: flex;
+    align-items: center;
+}
+
+.emailInput {
+    outline: none;
+    padding: 0px 10px;
+    font-size: $large;
+    font-family: $mono;
+    border: 2px solid $black;
+    background-color: $white;
+    color: $black;
+    height: 46px;
+    width: 400px;
+}
+
+.submitButton {
+    height: 50px;
+    width: 100px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0;
+    border: none;
+    background-color: $black;
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $mono;
+}

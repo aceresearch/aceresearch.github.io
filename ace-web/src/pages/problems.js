@@ -12,9 +12,9 @@ const ProblemsPage = () => (
         <li>carbon capture</li>
         <li>clean energy</li>
         <li>clean manufacturing</li>
-        <li>dementia</li>
         <li>education</li>
         <li>microbiome</li>
+        <li>neurodegenerative diseases</li>
         <li>public health</li>
       </ul>
     </div>
