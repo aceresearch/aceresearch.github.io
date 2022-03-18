@@ -12,13 +12,13 @@ const AboutPage = () => (
           climate change, pollution, and cancer, to name a few. The most
           promising solutions will be found in convergence: the union of
           engineering, physical sciences, computation, and life sciences.
-          Achieving convergence, however, will require hard work, learning both
-          theory and practice from a range of diverse fields.
+          Achieving convergence, however, requires learning both theory and
+          practice from a range of diverse fields.
         </p>
 
         <p>
           ACE brings together a diverse group of undergraduate and graduate
-          students to pursue convergence research: to learn the practical skills
+          students to pursue convergence research and learn the practical skills
           needed to solve the world's challenges.
         </p>
       </div>
