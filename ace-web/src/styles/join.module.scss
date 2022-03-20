@@ -22,6 +22,10 @@
 .emailContainer {
     display: flex;
     align-items: center;
+
+    form {
+        display: inline-block;
+    }
 }
 
 .emailInput {
@@ -49,4 +53,8 @@
     align-items: center;
     justify-content: center;
     font-family: $mono;
+}
+
+.submitButton:hover {
+    cursor: pointer;
 }

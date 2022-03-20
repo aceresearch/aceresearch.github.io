@@ -4,11 +4,49 @@ import Layout from "../components/layout"
 import * as styles from "../styles/join.module.scss"
 
 const SubmitEmail = () => {
-  const [email, setEmail] = useState(null)
+  const [email, setEmail] = useState("")
+  const [message, setMessage] = useState("")
+
+  const addEmail = async () => {
+    const URL = "https://mailinglist.mattfeng.tech/add"
+    // const URL = "http://localhost:8080/add"
+    console.log(email)
+
+    try {
+      const response = await fetch(URL, {
+        method: "POST",
+        mode: "cors",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: `email=${encodeURIComponent(email)}`,
+      })
+      console.log(response)
+      setMessage("email successfully added!")
+    } catch (e) {
+      setMessage("couldn't subscribe at this time.")
+    }
+    setEmail("")
+  }
+
   return (
-    <div className={styles.emailContainer}>
-      <input className={styles.emailInput} type="email" />
-      <div className={styles.submitButton}>join</div>
+    <div>
+      <div className={styles.emailContainer}>
+        <input
+          onChange={e => setEmail(e.target.value)}
+          name="email"
+          className={styles.emailInput}
+          type="email"
+          value={email}
+        />
+        <input
+          onClick={addEmail}
+          type="submit"
+          value="join"
+          className={styles.submitButton}
+        />
+      </div>
+      {message && <p>{message}</p>}
     </div>
   )
 }
