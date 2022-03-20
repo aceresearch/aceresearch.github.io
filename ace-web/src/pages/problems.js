@@ -15,7 +15,6 @@ const ProblemsPage = () => (
         <li>education</li>
         <li>microbiome</li>
         <li>neurodegenerative diseases</li>
-        <li>public health</li>
       </ul>
     </div>
   </Layout>
