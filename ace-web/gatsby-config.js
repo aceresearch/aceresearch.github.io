@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/",
   siteMetadata: {
     title: `ACE Group`,
     description: `The ACE Group brings together students with different skillsets to accelerate the Convergence Revolution.`,
