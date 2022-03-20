@@ -1,4 +1,13 @@
 @import "fonts.scss";
+@import "header.module.scss";
+
+.problemsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: max(900px, calc(100vh - $header-height));
+    transform: translateY(-10%);
+}
 
 .problemsList {
     font-family: $mono;
@@ -8,4 +17,15 @@
     li {
         padding: 10px 0;
     }
+
+    li:hover {
+        text-decoration: underline;
+    }
+}
+
+.imageContainer {
+    width: 600px;
+    height: 600px;
+    mask-image: url(./circle.svg);
+    background-repeat: no-repeat;
 }
