@@ -1,5 +1,6 @@
 @import "colors.scss";
 @import "fonts.scss";
+@import "responsive.scss";
 
 $header-height: 100px;
 
@@ -44,5 +45,10 @@ $header-height: 100px;
 
     a:hover {
         text-decoration: underline;
+    }
+
+    @media only screen and (max-width: $mobile-width) {
+        font-size: $small;
+        flex-basis: 200px;
     }
 }

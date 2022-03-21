@@ -1,16 +1,22 @@
 @import "fonts.scss";
 @import "header.module.scss";
+@import "responsive.scss";
 
 .problemsContainer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: max(900px, calc(100vh - $header-height));
+
+    @media only screen and (max-width: $mobile-width) {
+        height: calc(max(600px, 100vh) - $header-height);
+    }
 }
 
 .problemsList {
     font-family: $mono;
-    font-size: $larger;
+    font-size: $large;
+
     list-style: none;
 
     li {
@@ -20,11 +26,26 @@
     li:hover {
         text-decoration: underline;
     }
+
+    @media only screen and (max-width: $mobile-width) {
+        font-size: $small;
+        padding-left: 0;
+    }
 }
 
 .imageContainer {
+    @media only screen and (max-width: $mobile-width) {
+        display: none;
+    }
+
+    padding-left: 40px;
+    padding-right: 40px;
     width: 600px;
     height: 600px;
+}
+
+.image {
     mask-image: url(./circle.svg);
     background-repeat: no-repeat;
+    mask-position: center;
 }

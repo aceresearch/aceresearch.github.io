@@ -11,9 +11,21 @@
         font-family: $mono;
     }
 
+    a {
+        font-weight: bold;
+        color: $black;
+    }
+
+    a:hover {
+        font-weight: bold;
+        color: $white;
+        background-color: $black;
+    }
+
     .mainText {
+        font-size: $normal;
         width: 80ch;
         margin: 0 auto;
-        transform: translateY(-25%);
+        padding: 0 30px;
     }
 }
