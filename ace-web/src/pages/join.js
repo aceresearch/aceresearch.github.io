@@ -54,7 +54,10 @@ const JoinPage = () => (
   <Layout>
     <main className={styles.mainContainer}>
       <div className={styles.submitContainer}>
-        <p>for updates and news, join our mailing list:</p>
+        <p>
+          ACE is not currently recruiting. However, for updates and news, join
+          our mailing list:
+        </p>
         <SubmitEmail />
       </div>
     </main>

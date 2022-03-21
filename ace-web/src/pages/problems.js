@@ -10,6 +10,10 @@ const ProblemsPage = () => {
   const backgroundImage = {
     backgroundImage: `url(/${image}.jpg)`,
     backgroundSize: `600px`,
+    width: "100%",
+    height: "100%",
+    maskRepeat: "no-repeat",
+    "-webkit-mask-repeat": "no-repeat",
   }
 
   return (
@@ -28,7 +32,9 @@ const ProblemsPage = () => {
           </li>
         </ul>
 
-        <div className={styles.imageContainer} style={backgroundImage}></div>
+        <div className={styles.imageContainer}>
+          <div className={styles.image} style={backgroundImage}></div>
+        </div>
       </div>
     </Layout>
   )
