@@ -16,6 +16,7 @@ const ProblemsPage = () => {
     <Layout>
       <div className={styles.problemsContainer}>
         <ul className={styles.problemsList}>
+          <li onClick={() => setImage("coccus")}>antibiotic resistance</li>
           <li onClick={() => setImage("coral")}>bioremediation</li>
           <li onClick={() => setImage("cancer")}>cancer</li>
           <li onClick={() => setImage("trees")}>carbon capture</li>
