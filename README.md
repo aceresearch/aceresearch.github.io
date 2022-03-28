@@ -48,8 +48,10 @@ The Advanced Capability Engineering (ACE) research group brings together a diver
 - food insecurity
 - cancer
 - Alzheimer's
-- IBD
+- microbiome
 - clean energy
 - clean manufacturing
 - carbon capture
 - pollution
+- infrastructure
+- healthcare delivery
